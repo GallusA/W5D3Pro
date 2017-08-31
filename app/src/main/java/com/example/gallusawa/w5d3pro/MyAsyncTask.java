@@ -29,7 +29,7 @@ public class MyAsyncTask extends AsyncTask<Object, String, String> {
     @Override
     protected void onPostExecute(String s) {
         super.onPostExecute(s);
-        Intent newActivity = new Intent(c, SecondActivity.class);
+        Intent newActivity = new Intent(c, Main2Activity.class);
         c.startActivity(newActivity);
     }
 }
